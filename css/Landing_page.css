@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+.text-white {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* -----Header------- */
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #202020;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 2px 0 grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  z-index: 9999;
+}
+#start {
+  display: flex;
+  align-items: center;
+}
+
+.fa-bars {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.fa-youtube {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+h2 {
+  color: white;
+}
+h2 sup {
+  font-size: 10px;
+}
+
+#center {
+  display: flex;
+  align-items: center;
+}
+
+#center input {
+  outline: none;
+  border: none;
+  padding: 1px 5px;
+  color: white;
+  background-color: #121212;
+  width: 450px;
+  height: 38px;
+  padding-left: 16px;
+}
+
+.fa-magnifying-glass {
+  border: none;
+  background-color: #313131;
+  width: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fa-microphone {
+  background-color: #181818;
+  border-radius: 50%;
+  padding: 13px;
+  margin-left: 10px;
+}
+
+#end {
+  min-width: 225px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#end i {
+  padding: 0 17px 0 17px;
+  font-size: 20px;
+}
+
+.fa-video-plus {
+  color: white;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  margin-top: 60px;
+  height: 91.5vh;
+}
+
+/* ---left section */
+
+.leftSection {
+  width: 18%;
+  height: 91.5vh;
+  background-color: #212121;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.leftContent ul {
+  padding-left: 60px;
+  color: white;
+  list-style: none;
+  margin: 10px auto;
+}
+
+.left-nav li:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.left-nav li {
+  padding: 10px;
+  margin-left: -60px;
+}
+
+.left-nav li a {
+  text-decoration: none;
+  color: white;
+}
+.left-nav li span i {
+  padding: 0 30px;
+}
+
+h3 {
+  color: white;
+  padding: 10px 70px;
+  height: 20px;
+}
+
+hr {
+  border-color: #393939;
+}
+
+h3 {
+  color: #aaaaa6;
+  padding: 10px 70px;
+}
+
+h4 {
+  color: #aaaaa6;
+  padding: 10px 50px;
+}
+
+.footer {
+  padding: 15px 40px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  padding: 0 50px;
+  color: grey;
+}
+
+/* --main section-- */
+
+.mainSection {
+  width: 82%;
+  height: 91.5vh;
+  background-color: #181818;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/* .main-1 {
+  overflow: scroll;
+}  */
+
+.main-1 ul {
+  display: flex;
+  overflow: scroll;
+}
+.main-1 ul li {
+  list-style: none;
+  padding: 15px 10px;
+}
+
+.main-1 ul li a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 5px 30px;
+  background-color: #373737;
+  border-radius: 50px;
+}
+
+/* *********mainCont********* */
+
+.main-part {
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* justify-content: space-around; */
+}
+
+.main-part img {
+  width: 280px;
+  height: 190px;
+  /* margin-top: 5px; */
+}
+
+.main-part img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.images {
+  margin-top: 35px;
+}
+
+.images p {
+  padding: 0px 6px;
+}
+
+.images a {
+  color: rgb(119, 114, 114);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.num {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  margin: 0;
+  background-color: #322b00;
+}
+.shorts-head {
+  padding: 20px 15px;
+}
+
+.shorts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shorts-image img {
+  width: 170px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.shorts-image img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.shorts p {
+  padding: 5px 15px;
+}
+.shorts p:hover {
+  cursor: pointer;
+}
+
+.description {
+  color: whitesmoke;
+  margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  background-color: transparent;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+.leftSection::-webkit-scrollbar {
+  display: none;
+}
+
+.leftSection:hover::-webkit-scrollbar {
+  display: block;
+}
+
+.main-1::-webkit-scrollbar {
+  display: none;
+}
+.main-1:hover::-webkit-scrollbar {
+  display: block;
+}
+
+.main-1.main-1::-webkit-scrollbar {
+  background-color: transparent;
+  height: 4px;
+}
+.main-1::-webkit-scrollbar-thumb {
+  background-color: #555;
+}

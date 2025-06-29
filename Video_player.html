@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/Video_player.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>MyTUbe Load Page</title>
+  </head>
+  <body>
+    <header class="text-white">
+      <a href="/index.html">
+        <div id="start">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-brands fa-youtube" style="color: white"></i>
+          <h2 style="padding-left: 4px">MyTube<sup>IN</sup></h2>
+        </div>
+      </a>
+      <div id="center">
+        <input type="search" placeholder="search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+      <div id="end">
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </header>
+    <main>
+      <div class="main-content">
+        <!-- *****leftSection******* -->
+
+        <section class="left-section">
+          <div class="video-section">
+            <video controls autoplay>
+              <source src="videos/meri zindagi.mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <p class="title hashtag">#programming #language #HTML</p>
+            <h2 class="title">Meri Zindagi - Fee Fire</h2>
+            <div class="like">
+              <p>7,272 views . Oct 9, 2022</p>
+              <span class="buttons">
+                <span class="text">
+                  <i class="fa-solid fa-thumbs-up"></i>LIKE</span
+                >
+
+                <span class="text">
+                  <i class="fa-solid fa-thumbs-down"></i>DISLIKE</span
+                >
+
+                <span class="text">
+                  <i class="fa-solid fa-share"></i>SHARE
+                </span>
+
+                <span class="text">
+                  <i class="fa-solid fa-heart-pulse"></i>THANKS
+                </span>
+                <span class="text">
+                  <i class="fa-solid fa-scissors"></i>CLIP
+                </span>
+                <span class="text">
+                  <i class="fa-solid fa-floppy-disk"></i>SAVE
+                </span>
+              </span>
+            </div>
+            <br />
+
+            <hr id="hr" size="0.2" />
+          </div>
+
+          <div class="channel-name">
+            <div class="user">
+              <i class="fa-solid fa-circle-user"></i>
+              <div class="subs">
+                <span>MyTube Channel</span>
+                <p>5.66M subscribers</p>
+              </div>
+            </div>
+
+            <div class="subs-right">
+              <button id="join">Join</button>
+              <button id="subscribe">Subscribe</button>
+              <i class="fa-solid fa-bell"></i>
+            </div>
+          </div>
+
+          <br />
+          <br />
+
+          <div class="description">
+            <p id="desc-txt">Video description</p>
+            <p id="show-more">Show More</p>
+          </div>
+          <hr id="hr2" size="0.2" />
+
+          <div class="comments">
+            <p>Comments</p>
+            <input
+              type="text"
+              placeholder="Add a Comments"
+              style="
+                width: 95%;
+                height: 40px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                padding-left: 10px;
+              "
+            />
+            <hr id="hr3" size="0.2" />
+          </div>
+        </section>
+
+        <!-- *****RightSection******* -->
+
+        <section class="right-section">
+          <div class="right-top" style="overflow-x: scroll">
+            <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Gaming</a></li>
+              <li><a href="#">Javascript</a></li>
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Cooking</a></li>
+            </ul>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <a href="/Video-player2.html">
+                <video controls>
+                  <source src="videos/meri zindagi.mp4" />
+                </video>
+              </a>
+            </div>
+            <div class="right-context">
+              <span>Exploring JavaScript in 10 Minutes</span>
+              <p>CodeWithMe</p>
+              <p>850k views · 1 week ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/Video_song.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Top 5 React Tips for Beginners</span>
+              <p>DevSimplified</p>
+              <p>490k views · 3 days ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/meri zindagi.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Crazy Gaming Moments You Missed</span>
+              <p>GamerZone</p>
+              <p>1.2M views · 2 weeks ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/meri zindagi.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Cooking Paneer Butter Masala</span>
+              <p>FoodieChef</p>
+              <p>315k views · 4 days ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/Video_song.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>5 Hidden CSS Tricks You Should Know</span>
+              <p>Frontend Pro</p>
+              <p>227k views · 6 days ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/Video_song.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Live Coding JavaScript Game</span>
+              <p>JS Mastery</p>
+              <p>678k views · 1 month ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/meri zindagi.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Learn Python Basics in 15 Minutes</span>
+              <p>LearnCode</p>
+              <p>955k views · 2 months ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/meri zindagi.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Best Street Food in Chennai</span>
+              <p>LocalEats</p>
+              <p>403k views · 1 week ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/Video_song.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>How to Build a Portfolio Website</span>
+              <p>Web Dev Simplified</p>
+              <p>790k views · 5 days ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+
+          <div class="right-main">
+            <div class="right-videos">
+              <video src="videos/meri zindagi.mp4"></video>
+            </div>
+            <div class="right-context">
+              <span>Morning Yoga for Beginners</span>
+              <p>Zen Life</p>
+              <p>345k views · 2 weeks ago</p>
+              <button class="new-btn">New</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

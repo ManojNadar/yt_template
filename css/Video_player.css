@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+.text-white {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  background-color: transparent;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+/* -----Header------- */
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #202020;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 2px 0 grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+#start {
+  display: flex;
+  align-items: center;
+}
+
+.fa-bars {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.fa-youtube {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+h2 {
+  color: white;
+}
+h2 sup {
+  font-size: 10px;
+}
+
+#center {
+  display: flex;
+  align-items: center;
+}
+
+#center input {
+  outline: none;
+  border: none;
+  padding: 1px 3px;
+  color: white;
+  background-color: #121212;
+  width: 450px;
+  height: 38px;
+  padding-left: 16px;
+}
+
+.fa-magnifying-glass {
+  border: none;
+  background-color: #313131;
+  width: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fa-microphone {
+  background-color: #181818;
+  border-radius: 50%;
+  padding: 13px;
+  margin-left: 10px;
+}
+
+#end {
+  min-width: 225px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#end i {
+  padding: 0 17px 0 17px;
+  font-size: 20px;
+}
+
+.fa-video-plus {
+  color: white;
+  font-size: 20px;
+}
+
+/************* main ***********/
+
+main {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #313131;
+}
+.main-content {
+  margin-top: 60px;
+  background-color: #181818;
+  display: flex;
+}
+
+.left-section {
+  width: 65%;
+}
+
+.video-section {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.video-section video {
+  width: 850px;
+}
+
+.hashtag {
+  color: blue;
+}
+
+.title {
+  padding-top: 15px;
+}
+
+.like {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  color: grey;
+}
+.buttons {
+  padding: 0 40px;
+}
+.buttons i {
+  padding: 0 5px;
+}
+.buttons i:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.buttons span {
+  padding: 0 10px;
+}
+.buttons span:hover {
+  color: white;
+  cursor: pointer;
+}
+.channel-name {
+  margin-left: 50px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  display: flex;
+  margin-left: 50px;
+}
+.user p {
+  color: grey;
+}
+
+.channel-name i {
+  font-size: 40px;
+  color: red;
+  cursor: pointer;
+}
+
+.channel-name .subs {
+  padding-left: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.subs-right {
+  margin-right: 30px;
+}
+
+.subs-right button {
+  padding: 10px 40px;
+}
+#join {
+  background-color: transparent;
+  border: 1px solid rgb(0, 140, 255);
+  color: rgb(0, 140, 255);
+  cursor: pointer;
+}
+
+#subscribe {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.subs-right i {
+  font-size: 23px;
+  padding-left: 10px;
+  color: grey;
+  cursor: pointer;
+  padding-right: 35px;
+}
+
+#hr {
+  margin-right: 40px;
+}
+.description {
+  margin-left: 100px;
+}
+.description #desc-txt {
+  color: white;
+  padding: 20px 0;
+}
+
+.description #desc-txt {
+  color: white;
+}
+.description #show-more {
+  color: grey;
+  font-size: 20px;
+}
+
+#hr2 {
+  margin-right: 40px;
+  margin-left: 100px;
+}
+
+.comments {
+  margin-left: 95px;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+.comments i {
+  font-size: 30px;
+  padding: 20px 0;
+}
+.comments p {
+  font-size: 20px;
+  color: white;
+}
+.comments span {
+  color: grey;
+}
+
+#hr3 {
+  margin-right: 40px;
+}
+
+/* *****RightSection*******  */
+
+.right-section {
+  width: 25%;
+  background-color: #181818;
+}
+
+.right-top {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.right-top ul {
+  display: flex;
+  align-items: center;
+}
+.right-top ul li {
+  list-style: none;
+  padding: 10px 10px;
+}
+.right-top ul li :hover {
+  background-color: rgb(39, 36, 36);
+}
+
+.right-top ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  background-color: grey;
+  border-radius: 50px;
+}
+.right-main {
+  display: flex;
+}
+
+.right-main video {
+  width: 200px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.right-context {
+  margin-top: 15px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.right-context span {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.right-context p {
+  margin-top: 4px;
+  color: grey;
+  font-size: 13px;
+}
+
+.new-btn {
+  background-color: red;
+  padding: 1px 4px;
+  color: white;
+  font: 11px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
